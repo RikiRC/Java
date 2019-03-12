@@ -1,1 +1,18 @@
-test
+Po co powstał ten program?
+
+Program ten powstał ponieważ czasami zabronione jest korzystanie z dźwięku w citrixach czy innych zdalnych pulpitach w firmach. Ten program umożliwia stworzenie alarmu dźwiękowego na podstawie zmian koloru w danym miejscu na zdalnym pulpicie.
+
+
+Jak z niego korzystać?
+
+1. W klasie Alarm należy zdefiniować zmienną colorAlert na kolor, który NIE jest alarmem np.: Color colorAlert = new Color(255,255,255);
+  Dzięki temu wszystkie kolory poza białym będą powodować alarm,
+2. Uruchomić program,
+3. Kliknąć przycisk "Pokaz",
+4. Kliknąć piksel, który ma być monitorowany,
+5. Czekać aż pojawi się alert.
+
+
+Czy program będzie dalej rozwijany?
+
+Nie
